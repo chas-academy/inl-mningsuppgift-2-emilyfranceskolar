@@ -32,7 +32,7 @@ export function initSearch(people) { // rör ej denna rad
         isFound = true;
         break;
       } else {
-        htmlText.innerHTML = ("Namn hittades inte!");
+        htmlText.innerHTML = ("Namn hittades inte.");
         isFound = false;
       } 
     }
