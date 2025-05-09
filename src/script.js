@@ -27,7 +27,7 @@ export function initSearch(people) { // rör ej denna rad
     for (let i = 0; i < people.length; i++){
       if(input.value === people[i]){
         //console.log(people[i])
-        htmlText.innerHTML = ("Namn hittades!");
+        htmlText.innerHTML = `Namn hittades: ${input.value}`;
         //console.log("hi")
         isFound = true;
         break;
